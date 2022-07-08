@@ -1,0 +1,9 @@
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    mat-form-field {
+        width: 100%;
+        flex: 0 0 48%;
+    }
+}

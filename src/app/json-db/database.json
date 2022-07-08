@@ -1,0 +1,27 @@
+{
+  "raps": [
+    {
+      "id": 1,
+      "idRap": "0001",
+      "nombre": "Rap1",
+      "monto": 1000,
+      "denominaciones": [
+        {
+          "denominacion": "100",
+          "cantidad": 1,
+          "tipo_denominacion": "Billete"
+        },
+        {
+          "denominacion": "200",
+          "cantidad": 2,
+          "tipo_denominacion": "Billete"
+        },
+        {
+          "denominacion": "20",
+          "cantidad": 25,
+          "tipo_denominacion": "Moneda"
+        }
+      ]
+    }
+  ]
+}

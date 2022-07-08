@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "prueba-netasystem": {
+      "hosting": {
+        "evaluacion": [
+          "prueba-netasystem"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "prueba-netasystem"
+  }
+}

@@ -1,0 +1,20 @@
+<h1 mat-dialog-title>Ingrese 2 número para sumarlos</h1>
+<div mat-dialog-content>
+  <form [formGroup]="form">
+    <mat-form-field appearance="fill">
+      <mat-label>Número 1</mat-label>
+      <input matInput formControlName="number_one" type="number">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Número 2</mat-label>
+      <input matInput formControlName="number_two" type="number">
+    </mat-form-field>
+  </form>
+  <div class="response" *ngIf="results != ''">
+    <pre>{{results | json}}</pre>
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close>cerrar</button>
+  <button mat-raised-button cdkFocusInitial color="primary" (click)="makeOperation()">sumar</button>
+</div>
