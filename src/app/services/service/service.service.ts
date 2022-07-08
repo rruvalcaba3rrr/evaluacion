@@ -43,6 +43,9 @@ export class ServiceService {
         .get(`${this.DB_URL}?idRap=${idRap}`)
         .toPromise();
 
+        console.log(response);
+        
+
       if (response.length == 0) {
         return {
           code: 400,
